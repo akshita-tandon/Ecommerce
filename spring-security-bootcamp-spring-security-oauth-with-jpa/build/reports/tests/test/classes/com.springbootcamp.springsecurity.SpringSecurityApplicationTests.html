@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SpringSecurityApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SpringSecurityApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.springbootcamp.springsecurity.html">com.springbootcamp.springsecurity</a> &gt; SpringSecurityApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.177s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.177s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:50:20.178 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:50:20.193 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:50:20.220 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:50:20.232 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests], using SpringBootContextLoader
+17:50:20.237 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]: class path resource [com/springbootcamp/springsecurity/SpringSecurityApplicationTests-context.xml] does not exist
+17:50:20.237 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]: class path resource [com/springbootcamp/springsecurity/SpringSecurityApplicationTestsContext.groovy] does not exist
+17:50:20.238 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:50:20.239 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]: SpringSecurityApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:50:20.284 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]
+17:50:20.356 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/akshita/IdeaProjects/spring-security-bootcamp-spring-security-oauth-with-jpa/build/classes/java/main/com/springbootcamp/springsecurity/SpringSecurityApplication.class]
+17:50:20.359 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springbootcamp.springsecurity.SpringSecurityApplication for test class com.springbootcamp.springsecurity.SpringSecurityApplicationTests
+17:50:20.429 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.springbootcamp.springsecurity.SpringSecurityApplicationTests]: using defaults.
+17:50:20.429 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:50:20.452 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e26e78d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@67eee52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11fdb006, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5541c897, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c42473d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c151c1c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2094ea18, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7b4a8bed, org.springframework.test.context.event.EventPublishingTestExecutionListener@25ef5016, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@51ee4d4b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@562da944, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7917558f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@26a7d55b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50050d1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e5caebc]
+17:50:20.457 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@24e7c625 testClass = SpringSecurityApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7e577523 testClass = SpringSecurityApplicationTests, locations = '{}', classes = '{class com.springbootcamp.springsecurity.SpringSecurityApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@29b6f994, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3915f300, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@661b0c4b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@529908f3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+17:50:20.488 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-04-15 17:50:20.765  INFO 1363 --- [    Test worker] c.s.s.SpringSecurityApplicationTests     : Starting SpringSecurityApplicationTests on Akshita-Tandon with PID 1363 (started by akshita in /home/akshita/IdeaProjects/spring-security-bootcamp-spring-security-oauth-with-jpa)
+2020-04-15 17:50:20.770  INFO 1363 --- [    Test worker] c.s.s.SpringSecurityApplicationTests     : No active profile set, falling back to default profiles: default
+2020-04-15 17:50:22.571  INFO 1363 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-15 17:50:22.725  INFO 1363 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 14 JPA repository interfaces.
+2020-04-15 17:50:23.524  INFO 1363 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 17:50:23.541  INFO 1363 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 17:50:23.547  INFO 1363 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@44c99e70' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 17:50:23.562  INFO 1363 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 17:50:23.575  INFO 1363 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-15 17:50:24.034  INFO 1363 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-15 17:50:24.163  INFO 1363 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-15 17:50:24.338  INFO 1363 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-15 17:50:24.475  INFO 1363 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-15 17:50:24.483  WARN 1363 --- [    Test worker] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-15 17:50:25.055  INFO 1363 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-15 17:50:25.084  INFO 1363 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-15 17:50:25.538  INFO 1363 --- [    Test worker] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.springbootcamp.springsecurity.embeddableclass.AddressCopy (class must be instantiated by Interceptor)
+2020-04-15 17:50:27.052  INFO 1363 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-15 17:50:27.064  INFO 1363 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-15 17:50:27.231  WARN 1363 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-15 17:50:29.402  INFO 1363 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-15 17:50:30.131  INFO 1363 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/login'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e6d68b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@480bcb31, org.springframework.security.web.header.HeaderWriterFilter@3b616f1, org.springframework.security.web.authentication.logout.LogoutFilter@5d053190, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@1bee0475, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@601eae1f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20182f60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ac2b149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@347da8ac, org.springframework.security.web.session.SessionManagementFilter@221175c0, org.springframework.security.web.access.ExceptionTranslationFilter@5ef7cce6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@125ed991]
+2020-04-15 17:50:30.157  INFO 1363 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@1db937bb, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@699cc692, org.springframework.security.web.context.SecurityContextPersistenceFilter@2370c348, org.springframework.security.web.header.HeaderWriterFilter@b2339e7, org.springframework.security.web.authentication.logout.LogoutFilter@6b0429df, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@626e8db1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4957f04e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b290482, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@716a337a, org.springframework.security.web.session.SessionManagementFilter@4abbf98b, org.springframework.security.web.access.ExceptionTranslationFilter@21996a92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@119a9034]
+2020-04-15 17:50:30.209  INFO 1363 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ddab44, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d06c7bf, org.springframework.security.web.header.HeaderWriterFilter@f63140f, org.springframework.security.web.csrf.CsrfFilter@7abf6f58, org.springframework.security.web.authentication.logout.LogoutFilter@65230465, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5b6dea3e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b92a9ee, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@66f51e3b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e74d296, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@186d932c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fb92f42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bcb3019, org.springframework.security.web.session.SessionManagementFilter@7c9910d3, org.springframework.security.web.access.ExceptionTranslationFilter@ea77f2c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e1613db]
+2020-04-15 17:50:30.807  INFO 1363 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-15 17:50:31.198  INFO 1363 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-04-15 17:50:31.226  INFO 1363 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-04-15 17:50:31.282  INFO 1363 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-04-15 17:50:31.821  INFO 1363 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAddressUsingPOST_1
+2020-04-15 17:50:31.829  INFO 1363 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateAddressUsingPATCH_1
+2020-04-15 17:50:31.833  INFO 1363 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updatePasswordUsingPATCH_1
+2020-04-15 17:50:31.841  INFO 1363 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateProfileUsingPATCH_1
+2020-04-15 17:50:31.849  INFO 1363 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: viewProfileUsingGET_1
+2020-04-15 17:50:31.934  INFO 1363 --- [    Test worker] c.s.s.SpringSecurityApplicationTests     : Started SpringSecurityApplicationTests in 11.439 seconds (JVM running for 12.619)
+Hibernate: select admin0_.user_id as id1_16_1_, admin0_1_.created_by as created_2_16_1_, admin0_1_.created_date as created_3_16_1_, admin0_1_.last_modified_by as last_mod4_16_1_, admin0_1_.last_modified_date as last_mod5_16_1_, admin0_1_.confirmationtoken as confirma6_16_1_, admin0_1_.email as email7_16_1_, admin0_1_.expirydate as expiryda8_16_1_, admin0_1_.first_name as first_na9_16_1_, admin0_1_.is_active as is_acti10_16_1_, admin0_1_.is_deleted as is_dele11_16_1_, admin0_1_.last_name as last_na12_16_1_, admin0_1_.middle_name as middle_13_16_1_, admin0_1_.nonlocked as nonlock14_16_1_, admin0_1_.password as passwor15_16_1_, admin0_1_.profile_image as profile16_16_1_, admin0_1_.username as usernam17_16_1_, address1_.user_id as user_id9_0_3_, address1_.address_id as address_1_0_3_, address1_.address_id as address_1_0_0_, address1_.address as address2_0_0_, address1_.city as city3_0_0_, address1_.country as country4_0_0_, address1_.is_deleted as is_delet5_0_0_, address1_.label as label6_0_0_, address1_.state as state7_0_0_, address1_.user_id as user_id9_0_0_, address1_.zip_code as zip_code8_0_0_ from admin admin0_ inner join user admin0_1_ on admin0_.user_id=admin0_1_.id left outer join address address1_ on admin0_.user_id=address1_.user_id where admin0_.user_id=?
+Hibernate: select role0_.user_id as user_id1_17_0_, role0_.role_id as role_id2_17_0_, role1_.role_id as role_id1_14_1_, role1_.authority as authorit2_14_1_ from user_role role0_ inner join role role1_ on role0_.role_id=role1_.role_id where role0_.user_id=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into role (authority, role_id) values (?, ?)
+Hibernate: update user set created_by=?, created_date=?, last_modified_by=?, last_modified_date=?, confirmationtoken=?, email=?, expirydate=?, first_name=?, is_active=?, is_deleted=?, last_name=?, middle_name=?, nonlocked=?, password=?, profile_image=?, username=? where id=?
+Hibernate: delete from user_role where user_id=?
+Hibernate: insert into user_role (user_id, role_id) values (?, ?)
+Hibernate: select count(*) as col_0_0_ from user user0_
+Total users saved::9
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.2.2</a> at 15-Apr-2020, 5:50:33 PM</p>
+</div>
+</div>
+</body>
+</html>
